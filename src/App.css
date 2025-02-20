@@ -314,7 +314,8 @@ section.projects{
 }
 section.projects .images img {  /* handle media of project */
     width: 100%;
-    max-height: 250px;
+    height: auto;
+    object-fit: cover;
 }
 
 /* Contacts Section */
