@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import ScrollAnimation from "./ScrollAnimation";
 import { FaLinkedin } from 'react-icons/fa'; // Import LinkedIn icon
 import { FaGithub } from 'react-icons/fa';// Import github icon
- 
+
 
 function Contacts() {
   const [listContacts] = useState([
