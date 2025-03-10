@@ -58,6 +58,7 @@ header{
     & img{
         width: 50px;
     }
+    /* nav 3 line logo*/
     & .logo, nav{
         display: flex;
         align-items: center;
@@ -117,7 +118,7 @@ section.home{
             }
         }
         & .des{
-            color: rgba(255, 255, 255, 0.598);
+            color: #eee5;
             margin: 30px 0;
             border-left: .7em solid #e945e3;
             padding-left: 2em;
@@ -135,6 +136,7 @@ section.home{
             border-radius: 40px;
         }
     }
+    /*profile picture*/
     & .avatar{
         text-align: right;
         & .card{
@@ -157,7 +159,6 @@ section.home{
                 background-color: #eee; 
                 color: #010824;
                 display: grid;
-                
                 text-align: center;
                 gap: 20px;
                 padding: 20px;
@@ -170,8 +171,8 @@ section.home{
     }
 }
 
-/*media screen for home*/
-  @media screen and (max-width: 767px) {
+/*media screen for home
+@media screen and (max-width: 767px) {
     section.home {
         grid-template-columns: 1fr;
         padding-top: 70px;
@@ -186,7 +187,7 @@ section.home{
         max-height: 400px;
     }
 }
-
+*/
 /* section skill */
 section.skills{
     & .title{
@@ -253,6 +254,7 @@ section.projects{
     }
     & .list{
         margin-top: 50px;
+
         & .item{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -260,6 +262,7 @@ section.projects{
             align-items: center;
             margin-bottom: 100px;
             gap: 20px;
+
             & .images{
                 background-image: linear-gradient(
                     -45deg, #473bb4, #be24a9
@@ -273,6 +276,7 @@ section.projects{
                     height: 400px;
                     border-radius: 10px;
                     box-shadow: 0 20px 40px #010824;
+            
                 }
             }
             & .content{
@@ -290,6 +294,7 @@ section.projects{
                     align-items: center;
                     gap: 10px;
                     margin-top: 10px;
+                    
                     & div:nth-child(1) svg{
                         background-color: rgba(238, 238, 238, 0.219);
                         padding: 20px;
@@ -312,7 +317,8 @@ section.projects{
         }
     }
 }
-section.projects .images img {  /* handle media of project */
+/*
+section.projects .images img {  /* handle media of project 
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -381,6 +387,7 @@ section.contacts{
         &.home{
             grid-template-columns: 1fr;
             padding-top: 70px;
+            
             & .content{
                 & a{
                     margin: auto;
@@ -431,9 +438,11 @@ section.contacts{
         }
         & .icon-bar{
             display: block;
+        
         }
         & nav.active{
             left: 0;
+            width: 35%;
         } 
     }
 }

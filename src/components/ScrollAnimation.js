@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 const ScrollAnimation = (refTab = null, refList = null, activeTab) => {
     useEffect(() => {
-        if (refTab?.current) {
+        if (refTab?.current.classList.contains(activeTab)) {
             refTab.current.scrollIntoView({ behavior: 'smooth' });
         }
 
