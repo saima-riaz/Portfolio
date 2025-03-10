@@ -1,41 +1,37 @@
-# Getting Started with Create React App
+# Portfolio View Live Click Here 
+[Saima RIAZ](https://saima-riaz.github.io/Portfolio/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Decription 
 
-In the project directory, you can run:
+This is a personal portfolio website designed to showcase my skills, projects, and achievements as a web developer. The website highlights the web development skills I've learned, particularly in front-end technologies, including HTML, CSS, JavaScript, and React. It provides an overview of my various projects, including both personal and academic work, with an emphasis on practical applications and problem-solving.
+
+## Technologies Used
+
+- 1 HTML5:
+Structure of the website, including headers, sections, and other semantic elements.
+- 2 CSS:
+Styling of the website. You likely used modern CSS techniques such as Flexbox and Grid for layout, along with media queries for responsive design.
+- 3 JavaScript:
+To add interactive features, such as dynamic content loading, image handling, or animations on the website.
+- 4 React:
+For building the front-end of my portfolio website. React helps you create reusable components and manage the state of your app.
+- 5 GitHub Pages:
+To host your website. GitHub Pages makes it easy to deploy static websites directly from a GitHub repository.
+
+## Installation
+Ensure you have Node.js installed on your system. Then run the following command to install all necessary dependencies:
 
 ### `npm start`
 
+## Start the server
 Runs the app in the development mode.\
 Open [http://localhost:4000](http://localhost:4000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
